@@ -1,0 +1,239 @@
+/* MyPurchaseProcessingPage.module.css */
+
+.container {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainContent {
+    width: 1500px;
+    margin-right: 100px;
+  }
+  
+  .filterBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .filterButton {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .filterButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .filterButton:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: black;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .filterButton:hover:after,
+  .filterButton:focus:after {
+    width: 100%;
+  }
+  
+  .searchBar {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #d6bc79;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .searchIconButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .iconImage {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .searchInput {
+    margin-left: 50px;
+    flex-grow: 1;
+    padding: 10px;
+    border: 0px solid #ddd;
+    background-color: #ebddb9;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    width: 350px;
+    outline: none;
+  }
+  
+  .orderList {
+    padding: 20px;
+  }
+  
+  .orderItem {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orderHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .deliveryIcon {
+    width: 48px;
+    height: 39px;
+    opacity: 0.5;
+  }
+  
+  .priceDuration {
+    margin-left: 80%;
+  }
+  
+  .statusProcessing {
+    color: rgba(242, 15, 15, 1);
+  }
+  
+  .orderDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .productImage {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+  }
+  
+  .productInfo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: lighter;
+  }
+  
+  .orderTotal {
+    margin-left: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  }
+  
+  .orderTotal i {
+    margin-right: 5px;
+  }
+  
+  .orderActions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .reviewButton,
+  .contactButton {
+    height: 70px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .customLine {
+    width: 100%;
+    height: 1px;
+    border: 1px solid rgba(248, 151, 5, 0.57);
+    opacity: 0.5;
+    transform: rotate(-0.08deg);
+    margin: 20px auto;
+  }
+  
+  .reviewButton {
+    background: #05CCF8;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 182, 3, 1);
+  }
+  
+  .reviewButton:hover {
+    background-color: #45a049;
+  }
+  
+  .contactButton {
+    background: #05CCF8;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 182, 3, 1);
+  }
+  
+  .contactButton:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination .active {
+    background-color: #8948c2;
+    color: #fff;
+  }
+  
+  .leftSidebar {
+    margin-bottom: 600px;
+    width: 100px;
+    margin-right: 100px;
+  }
+  
+  

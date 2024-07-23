@@ -1,0 +1,208 @@
+/* MyPurchaseDetail.module.css */
+
+.container {
+  width: 1600px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainContent {
+  margin-left: 250px;
+}
+
+.orderList {
+  padding: 20px;
+}
+
+.orderItem {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.orderHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.deliveryIcon {
+  width: 48px;
+  height: 39px;
+  opacity: 0.5;
+}
+
+.priceDuration {
+  margin-left: 80%;
+}
+
+.statusProcessing {
+  color: rgba(242, 15, 15, 1);
+}
+
+.orderDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.productImage {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.productInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.orderTotal {
+  margin-left: 80%;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.orderTotal i {
+  margin-right: 5px;
+}
+
+.orderActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewButton,
+.contactButton {
+  height: 70px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.customLine {
+  width: 100%;
+  height: 1px;
+  border: 0.5px solid gray;
+  opacity: 0.5;
+  transform: rotate(-0.08deg);
+  margin: 20px auto;
+}
+
+.orderLine {
+  width: 100%;
+  height: 1px;
+  border: 1px solid black;
+  opacity: 0.5;
+  transform: rotate(-0.08deg);
+  margin: 20px auto;
+}
+
+.reviewButton {
+  margin-left: 65%;
+  background: #05ccf8;
+  padding: 10px 50px;
+  color: black;
+  border-radius: 15px;
+}
+
+.reviewButton:hover {
+  background-color: #45a049;
+}
+
+.contactButton {
+  left: 500px;
+  background: #05ccf8;
+  color: black;
+  border-radius: 15px;
+}
+
+.contactButton:hover {
+  background-color: transparent;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination .active {
+  background-color: #8948c2;
+  color: #fff;
+}
+
+.leftSidebar {
+  height: 10px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.userRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.eclip {
+  width: 92px;
+  height: 92px;
+  border: 1px solid rgba(248, 151, 5, 0.57);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 20px;
+}
+
+.userId {
+  font-weight: bold;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.menuItem i {
+  margin-right: 10px;
+}
